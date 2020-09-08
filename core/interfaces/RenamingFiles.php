@@ -4,7 +4,7 @@
     class RenamingFiles
     {
 
-      private $path_to_source = 'music_source/';
+      private $path_to_source = 'D:/музыка/music_source/';
 
       private $path_to_ready = 'E:/';
 
@@ -63,7 +63,7 @@
       }
 
       private function go_rename(){
-          set_time_limit(1000);
+          set_time_limit(1000000);
 
           $this->clear_dir_ready();
 

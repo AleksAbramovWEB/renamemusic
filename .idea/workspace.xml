@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66779ed2-a12b-4050-aad8-e6523cf76d08" name="Default Changelist" comment="" />
+    <list default="true" id="66779ed2-a12b-4050-aad8-e6523cf76d08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interfaces/RenamingFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/interfaces/RenamingFiles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hB4qjCj8QKI6GhEdJzbSpVCdH8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,6 +35,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -56,18 +66,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599471343681</updated>
-      <workItem from="1599471344749" duration="30367000" />
+      <workItem from="1599471344749" duration="31937000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0">
+      <created>1599507565251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599507565251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="581" y="176" key="#Inspections" timestamp="1599491613721">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="581" y="176" key="#Inspections/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599491613721" />
+    <state x="484" y="25" key="CommitChangelistDialog2" timestamp="1599507563929">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="484" y="25" key="CommitChangelistDialog2/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599507563929" />
+    <state x="798" y="385" key="Github.ShareDialog" timestamp="1599507625540">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="798" y="385" key="Github.ShareDialog/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599507625540" />
     <state x="620" y="179" key="NewPhpClassDialog" timestamp="1599472103294">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
