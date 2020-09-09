@@ -87,9 +87,24 @@
 
       private function parse_name($name, $i){
           $vowels = [
-              '_(zaycev.net)', 'muzlome_', '(muzofon.com)', '(music7s.com), (music4love.net)'
+              '(zaycev.net)', 'muzlome_', '(muzofon.com)', '(music7s.com), (music4love.net)', '(NaitiMP3.ru)', '(zf.fm)', '(muztron.com)', '(music7s.com)',
+              '(music4love.net)', '(music2k.com)', '(www.petamusic.ru)'
           ];
-          $name = "$i-".str_replace($vowels, "", $name);
+          switch (strlen($i)){
+              case 1:
+                  $i = "000$i";
+                  break;
+              case 2:
+                  $i = "00$i";
+                  break;
+              case 3:
+                  $i = "0$i";
+                  break;
+              default:
+                  break;
+          };
+
+          $name = "$i - ".str_replace($vowels, "", $name);
           return $name;
       }
 
@@ -116,9 +131,6 @@
           file_put_contents('data.json',json_encode($data));
       }
 
-        private function json_exit(){
-            file_put_contents('data.json',json_encode(["json_exit" => 1]));
-        }
 
 
 

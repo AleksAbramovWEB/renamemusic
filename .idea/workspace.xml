@@ -4,7 +4,7 @@
     <list default="true" id="66779ed2-a12b-4050-aad8-e6523cf76d08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/interfaces/RenamingFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/interfaces/RenamingFiles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/AleksAbramovWEB/renamemusic" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1hB4qjCj8QKI6GhEdJzbSpVCdH8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,6 +52,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
@@ -67,6 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599471343681</updated>
       <workItem from="1599471344749" duration="31937000" />
+      <workItem from="1599552972037" duration="898000" />
+      <workItem from="1599654232426" duration="879000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1599507565251</created>
@@ -75,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599507565251</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.0">
+      <created>1599553015735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599553015735</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,10 +107,14 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="581" y="176" key="#Inspections/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599491613721" />
-    <state x="484" y="25" key="CommitChangelistDialog2" timestamp="1599507563929">
+    <state x="484" y="25" key="CommitChangelistDialog2" timestamp="1599553013971">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="484" y="25" key="CommitChangelistDialog2/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599507563929" />
+    <state x="484" y="25" key="CommitChangelistDialog2/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599553013971" />
+    <state x="686" y="192" key="FileChooserDialogImpl" timestamp="1599553858286">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="686" y="192" key="FileChooserDialogImpl/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599553858286" />
     <state x="798" y="385" key="Github.ShareDialog" timestamp="1599507625540">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -110,5 +131,9 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="343" y="56" key="SettingsEditor/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599504382849" />
+    <state x="451" y="181" key="Vcs.Push.Dialog.v2" timestamp="1599553018067">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="451" y="181" key="Vcs.Push.Dialog.v2/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599553018067" />
   </component>
 </project>
