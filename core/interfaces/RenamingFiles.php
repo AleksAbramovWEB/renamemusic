@@ -4,9 +4,9 @@
     class RenamingFiles
     {
 
-      private $path_to_source = 'D:/музыка/music_source/';
+      private $path_to_source = 'D:/музыка/test/';
 
-      private $path_to_ready = 'E:/';
+      private $path_to_ready = 'D:/музыка/test2/';
 
       private $count_in_source;
 
@@ -79,6 +79,8 @@
               copy("{$this->path_to_source}$filename", "{$this->path_to_ready}$new_filename");
 
               $this->json_log();
+
+              if ($this->index == 1) sleep(10);
           }
 
 
@@ -124,8 +126,8 @@
           $percent = ($this->index / $this->count_in_source) * 100;
 
           $data = [
+              "percent" => (int)$percent,
               "files_ready" => $this->array_in_ready,
-              "percent" => (int)$percent
           ];
 
           file_put_contents('data.json',json_encode($data));
