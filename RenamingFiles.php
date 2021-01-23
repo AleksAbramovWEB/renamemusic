@@ -6,7 +6,7 @@
 
       private string $path_to_source = 'E:/Music/music_source/';
 
-      private string $path_to_ready = 'E:/Music/test/';
+      private string $path_to_ready = 'F:/';
 
       private int $count_in_source = 0;
 
@@ -68,6 +68,7 @@
               if (!file_exists($path_to_source)) throw new \Exception("файл не найден $path_to_source");
               if (!copy($path_to_source, $path_to_ready)) throw new \Exception("ошибка копивания $path_to_ready");
               $this->viewConsole();
+              sleep(0.2);
           }
 
            echo 'success';
