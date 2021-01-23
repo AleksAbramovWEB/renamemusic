@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/renamemusic.iml" filepath="$PROJECT_DIR$/.idea/renamemusic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ScriptRenameMusic.iml" filepath="$PROJECT_DIR$/.idea/ScriptRenameMusic.iml" />
     </modules>
   </component>
 </project>

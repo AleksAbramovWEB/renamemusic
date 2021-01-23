@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66779ed2-a12b-4050-aad8-e6523cf76d08" name="Default Changelist" comment="">
+    <list default="true" id="cff5e1bd-2160-43c2-9973-1646c0e0cacf" name="Default Changelist" comment="console">
+      <change afterPath="$PROJECT_DIR$/.idea/ScriptRenameMusic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/renamemusic.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/interfaces/RenamingFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/interfaces/RenamingFiles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interfaces/RenamingFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/RenamingFiles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,139 +25,72 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="hiddenUrls">
-      <set>
-        <option value="https://github.com/AleksAbramovWEB/renamemusic" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1hB4qjCj8QKI6GhEdJzbSpVCdH8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
+  <component name="ProjectId" id="1nTmgA0YVYo3NQPG68IU9Uimc40" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
-    <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OPEN SERVER\OSPanel\domains\renamemusic\assets\js" />
-      <recent name="D:\OPEN SERVER\OSPanel\domains\renamemusic\core\assets\css" />
-      <recent name="D:\OPEN SERVER\OSPanel\domains\renamemusic\music_ready" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OPEN SERVER\OSPanel\domains\renamemusic" />
-      <recent name="D:\OPEN SERVER\OSPanel\domains\renamemusic\core" />
+      <recent name="E:\Projects\ScriptRenameMusic" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RenamingFiles.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/RenamingFiles.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.RenamingFiles.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="66779ed2-a12b-4050-aad8-e6523cf76d08" name="Default Changelist" comment="" />
-      <created>1599471343681</created>
+      <changelist id="cff5e1bd-2160-43c2-9973-1646c0e0cacf" name="Default Changelist" comment="" />
+      <created>1611422575155</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599471343681</updated>
-      <workItem from="1599471344749" duration="31937000" />
-      <workItem from="1599552972037" duration="898000" />
-      <workItem from="1599654232426" duration="1083000" />
-      <workItem from="1599850911875" duration="3913000" />
+      <updated>1611422575155</updated>
+      <workItem from="1611422581533" duration="5154000" />
     </task>
-    <task id="LOCAL-00001" summary="1.0">
-      <created>1599507565251</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1599507565251</updated>
-    </task>
-    <task id="LOCAL-00002" summary="1.0">
-      <created>1599553015735</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1599553015735</updated>
-    </task>
-    <task id="LOCAL-00003" summary="1.0">
-      <created>1599655266020</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1599655266020</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="581" y="176" key="#Inspections" timestamp="1599491613721">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="581" y="176" key="#Inspections/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599491613721" />
-    <state x="484" y="25" key="CommitChangelistDialog2" timestamp="1599655264319">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="484" y="25" key="CommitChangelistDialog2/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599655264319" />
-    <state x="91" y="91" width="1738" height="850" key="DiffContextDialog" timestamp="1599655320208">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="91" y="91" width="1738" height="850" key="DiffContextDialog/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599655320208" />
-    <state x="686" y="192" key="FileChooserDialogImpl" timestamp="1599553858286">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="686" y="192" key="FileChooserDialogImpl/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599553858286" />
-    <state x="798" y="385" key="Github.ShareDialog" timestamp="1599507625540">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="798" y="385" key="Github.ShareDialog/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599507625540" />
-    <state x="620" y="179" key="NewPhpClassDialog" timestamp="1599472103294">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="620" y="179" key="NewPhpClassDialog/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599472103294" />
-    <state x="749" y="419" key="NewPhpFileDialog" timestamp="1599471639736">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="749" y="419" key="NewPhpFileDialog/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599471639736" />
-    <state x="343" y="56" key="SettingsEditor" timestamp="1599504382849">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="343" y="56" key="SettingsEditor/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599504382849" />
-    <state x="451" y="181" key="Vcs.Push.Dialog.v2" timestamp="1599655268440">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="451" y="181" key="Vcs.Push.Dialog.v2/0.0.1920.1032/-1920.0.1920.1080@0.0.1920.1032" timestamp="1599655268440" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="console" />
+    <option name="LAST_COMMIT_MESSAGE" value="console" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
