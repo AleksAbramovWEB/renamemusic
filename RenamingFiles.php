@@ -68,7 +68,7 @@
               if (!file_exists($path_to_source)) throw new \Exception("файл не найден $path_to_source");
               if (!copy($path_to_source, $path_to_ready)) throw new \Exception("ошибка копивания $path_to_ready");
               $this->viewConsole();
-              sleep(0.2);
+              sleep(0.5);
           }
 
            echo 'success';
@@ -122,7 +122,8 @@
             }
       }
 
-      private function my_scan_dir($dir){
+      private function my_scan_dir($dir): bool|array
+      {
             return array_diff(scandir($dir), [".", ".."]);
       }
 
