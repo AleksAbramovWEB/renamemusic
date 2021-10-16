@@ -27,7 +27,6 @@
               if (!is_dir($this->path_to_source)) throw new \Exception("не удалось найти указанную папку: {$this->path_to_source}");
               if (!is_dir($this->path_to_ready))  throw new \Exception("не удалось найти указанную папку: {$this->path_to_ready}");
 
-              $this->set_count_in_source();
               $this->set_array_in_source();
               $this->go_rename();
           }catch (\Exception $e){
@@ -35,13 +34,24 @@
           }
       }
 
-      private function set_count_in_source()
-      {
-         $this->count_in_source =  count($this->my_scan_dir($this->path_to_source));
+      private function set_array_in_source(){
+          $filtered = $this->filter_mp3($this->my_scan_dir($this->path_to_source));
+
+          $this->count_in_source =  count($filtered);
+          $this->array_in_source = $filtered;
       }
 
-      private function set_array_in_source(){
-          $this->array_in_source = $this->my_scan_dir($this->path_to_source);
+      private function filter_mp3(array $source): array
+      {
+          $sourceFiltered = [];
+          foreach ($source as $fileName){
+              $extension = pathinfo("{$this->path_to_source}$fileName")['extension'];
+              if ($extension == 'mp3') {
+                  $sourceFiltered[] = $fileName;
+              }
+          }
+
+          return $sourceFiltered;
       }
 
       private function go_rename(){
@@ -66,7 +76,7 @@
               $path_to_ready = "{$this->path_to_ready}/dir-{$this->dir}/$new_filename";
 
               if (!file_exists($path_to_source)) throw new \Exception("файл не найден $path_to_source");
-              if (!copy($path_to_source, $path_to_ready)) throw new \Exception("ошибка копивания $path_to_ready");
+              if (!copy($path_to_source, $path_to_ready)) throw new \Exception("ошибка копирования $path_to_ready");
               $this->viewConsole();
               sleep(0.5);
           }
